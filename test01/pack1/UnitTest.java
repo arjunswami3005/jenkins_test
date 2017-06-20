@@ -1,8 +1,10 @@
-package c1;
+package pack1;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import junit.framework.Assert;
+import c1.Math;
+
 
 public class UnitTest  {
 	
@@ -11,6 +13,8 @@ public class UnitTest  {
 	@Test
 	public void add()
 	{
+		
+		
 		Assert.assertEquals(30,m1.add(20, 10));
 	
 	}

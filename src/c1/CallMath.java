@@ -1,6 +1,5 @@
 package c1;
 
-import junit.framework.Assert;
 
 public class CallMath {
 	
@@ -20,10 +19,6 @@ public class CallMath {
 		mul1=m.divide(20, 10);
 		div1=m.multiply(20, 10);
 	 
-		Assert.assertEquals(20,add1);
-		Assert.assertEquals(20,sub1);
-		Assert.assertEquals(20,mul1);
-		Assert.assertEquals(20,div1);
 		
 		
 		
